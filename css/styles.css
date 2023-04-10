@@ -1,0 +1,524 @@
+/* COLOR BACKGROUND - ALL PAGE */
+body {
+        background-color: #1e1e1e !important;
+        overflow-x: hidden;
+}
+
+
+/* --- NAVBAR --- */
+.navbar {
+        padding: 1em 100px !important;
+        background: #e2e1e1; /* Old browsers */
+        background: -moz-linear-gradient(left,  rgb(255,255,255) 20%, rgb(255,255,255) 63%, rgba(132,132,130, 1) 20%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left,  rgb(255,255,255) 20%,rgb(255,255,255) 63%,rgba(132,132,130, 1) 20%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right,  rgb(255,255,255) 20%,rgb(255,255,255) 63%,rgba(132,132,130, 1) 20%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+.navbar-light .navbar-brand {
+        color: #020202;
+    }
+    
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        background-color: #007ba1 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+        color: #a84545;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        background-color: #007ba1 !important;
+}
+
+
+.nav-link {
+        color: rgba(255, 255, 255, 1) !important;
+        font-size: 25px;
+        font-weight: 500;
+}
+
+.header .navbar {
+        background-color: rgba(227, 226, 226, 1) !important;
+}
+
+.imageNavbar {
+        width: 85%;
+}
+
+
+/* --- BODY --- */
+
+.container-body {
+        background-position: top !important; 
+        background: url(../assets/Inicio/BANNER-INICIO.png) no-repeat center;
+        background-size: contain;
+        min-height: 85vh;
+}
+
+/* --- QUE HACEMOS --- */
+
+.imageQH{
+        width: 40%;
+        position: relative;
+        z-index:2;
+        margin: -5%;
+}
+
+.textQH{
+        width: 40%;
+        position: relative;
+        top:10rem;
+        z-index:3
+}
+
+.containerFImage {
+        background-position-y: top;
+        text-align: center;
+}
+
+
+/* --- ESPACIO --- */
+
+.imageES{
+        width: 70%;
+        position: relative;
+        z-index:2;
+        margin: -15%;
+}
+
+.textES{
+        width: 35%;
+        position: relative;
+        top:10rem;
+        z-index:3
+}
+
+.containerSImage {
+        margin-top: 25.25rem;
+        text-align: center;
+}
+
+
+/* --- SEDES --- */
+.container-sedes{
+        background-color: rgba(45, 45, 45, 1);
+        background-size: contain;
+        margin-top: 20rem;
+        min-height: 100vh;
+}
+
+.card {
+        width: 25rem; 
+        background-color: rgba(28, 28, 28, 1) !important; 
+        text-align: center;
+}
+
+.first {
+        margin: 10%;
+
+}
+
+.second {
+        margin-top: 10%;
+        margin-left: -5%;
+}
+
+.third {
+        margin-top: 10%;
+        margin-left: 4%;
+}
+
+
+/* --- IMAGE FOOTER --- */
+.image-footer {
+        background: url(../assets/Inicio/ALUMUNDO-METALICO.png) no-repeat center fixed;
+        background-size: cover;
+        min-height: 55vh;
+}
+
+
+/* --- FOOTER --- */
+.bannerFooter {
+        
+}
+
+.titleContact {
+        text-align: center; color: white; margin-top: 2%;
+}
+
+.imageBlue {
+        background-image: url(../assets/Inicio/BARRA-CONTACTANOS.png);
+}
+
+.lineFooter {
+        text-align: center; 
+        margin-top: 2%; color: rgba(82, 86, 89, 1); 
+        font-size: 75px;
+}
+
+.social {
+        width: 3%;
+}
+
+.alu2 {
+        width: 17%;
+}
+
+
+
+
+/* --- RESPONSIVE / 1366*768 --- */
+
+@media only screen and (max-width: 1366px) {
+body {
+        overflow-x: hidden;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+        padding: 0.5em 1em !important;
+        background: #e2e1e1; /* Old browsers */
+        background: -moz-linear-gradient(left,  rgb(255,255,255) 20%, rgb(255,255,255) 60%, rgba(132,132,130, 1) 20%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left,  rgb(255,255,255) 20%,rgb(255,255,255) 60%,rgba(132,132,130, 1) 20%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right,  rgb(255,255,255) 20%,rgb(255,255,255) 60%,rgba(132,132,130, 1) 20%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+.navbar-light .navbar-brand {
+        color: #020202;
+    }
+    
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        background-color: #007ba1 !important;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: #a84545;
+    }
+    
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        background-color: #007ba1 !important;
+    }
+
+
+.nav-link {
+        color: rgba(255, 255, 255, 1) !important;
+        font-size: 25px;
+        font-weight: 500;
+}
+
+.header .navbar {
+        background-color: rgba(227, 226, 226, 1) !important;
+}
+
+.imageNavbar {
+        width: 65%;
+}
+
+
+/* --- BODY --- */
+
+.container-body {
+        background-position: top !important; 
+        background: url(../assets/Inicio/BANNER-INICIO.png) no-repeat center;
+        background-size: contain;
+        min-height: 85vh;
+}
+
+/* --- QUE HACEMOS --- */
+
+.imageQH{
+        width: 40%;
+        position: relative;
+        z-index:2;
+        margin: -5%;
+}
+
+.textQH{
+        width: 40%;
+        position: relative;
+        top:10rem;
+        z-index:3
+}
+
+.containerFImage {
+        background-position-y: top;
+        text-align: center;
+}
+
+
+/* --- ESPACIO --- */
+
+.imageES{
+        width: 70%;
+        position: relative;
+        z-index:2;
+        margin: -15%;
+}
+
+.textES{
+        width: 35%;
+        position: relative;
+        top:10rem;
+        z-index:3
+}
+
+.containerSImage {
+        margin-top: 25.25rem;
+        text-align: center;
+}
+
+
+/* --- SEDES --- */
+.container-sedes{
+        background-color: rgba(45, 45, 45, 1);
+        background-size: contain;
+        margin-top: 20rem;
+        min-height: 100vh;
+}
+
+.card {
+        width: 25rem; 
+        background-color: rgba(28, 28, 28, 1) !important; 
+        text-align: center;
+}
+
+.first {
+        margin-left: 3%;
+}
+
+.second {
+        margin-top: 10%;
+        margin-left: -3%;
+}
+
+.third {
+        margin-top: 10%;
+        margin-left: 6%;
+}
+
+
+/* --- IMAGE FOOTER --- */
+.image-footer {
+        background: url(../assets/Inicio/ALUMUNDO-METALICO.png) no-repeat center fixed;
+        background-size: cover;
+        min-height: 55vh;
+}
+
+
+/* --- FOOTER --- */
+.bannerFooter {
+        
+}
+
+.titleContact {
+        text-align: center; color: white; margin-top: 2%;
+}
+
+.imageBlue {
+        background-image: url(../assets/Inicio/BARRA-CONTACTANOS.png);
+}
+
+.lineFooter {
+        text-align: center; 
+        margin-top: 2%; color: rgba(82, 86, 89, 1); 
+        font-size: 75px;
+}
+
+.social {
+        width: 3%;
+}
+
+.alu2 {
+        width: 17%;
+}
+}
+
+
+
+/* --- RESPONSIVE / PHONE --- */
+
+@media only screen and (max-width: 768px) {
+body {
+        overflow-x: hidden;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+        padding: 0.5em 1em !important;
+        background: #e2e1e1; /* Old browsers */
+        background: -moz-linear-gradient(left,  rgb(255,255,255) 20%, rgb(255,255,255) 75%, rgba(132,132,130, 1) 20%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left,  rgb(255,255,255) 20%,rgb(255,255,255) 75%,rgba(132,132,130, 1) 20%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right,  rgb(255,255,255) 20%,rgb(255,255,255) 75%,rgba(132,132,130, 1) 20%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+/* .navbar {
+        padding: 0.5em 1em !important;
+} */
+
+.navbar-light .navbar-brand {
+        color: #020202;
+    }
+    
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        background-color: transparent !important;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: #a84545;
+    }
+    
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        background-color: transparent !important;
+    }
+
+.nav-link {
+        color: #717171 !important;
+        font-size: 15px;
+}
+
+.navbar-brand {
+        width: 40%;
+}
+
+.imageNavbar {
+        width: 105%;
+}
+
+/* --- BODY --- */
+.container-body {
+        background-position: top !important; 
+        background: url(../assets/Inicio/BANNER-INICIO.png) no-repeat center;
+        background-size: contain;
+        min-height: 25vh;
+}
+
+/* --- QUE HACEMOS --- */
+
+.imageQH{
+        width: 40%;
+        position: relative;
+        z-index:2;
+        margin: -5%;
+}
+
+.textQH{
+        width: 40%;
+        position: relative;
+        top:2rem;
+        z-index:3
+}
+
+.containerFImage {
+        background-position-y: top;
+        text-align: center;
+}
+
+
+/* --- ESPACIO --- */
+
+.imageES{
+        width: 70%;
+        position: relative;
+        z-index:2;
+        margin: -15%;
+}
+
+.textES{
+        width: 35%;
+        position: relative;
+        top:2rem;
+        z-index:3
+}
+
+.containerSImage {
+        margin-top: 8rem;
+        text-align: center;
+}
+
+/* --- SEDES --- */
+.container-sedes{
+        background-color: rgba(45, 45, 45, 1);
+        background-size: contain;
+        margin-top: 6rem;
+        min-height: 100vh;
+}
+
+.card {
+        width: 20rem; 
+        background-color: rgba(28, 28, 28, 1) !important; 
+        text-align: center;
+}
+
+.first {
+        margin: 10%;
+        margin-left: 6%;
+}
+
+.second {
+        margin-left: 6%;
+}
+
+.third {
+        margin-top: 18%;
+        margin-left: 6%;
+        margin-bottom: 10%;
+}
+
+
+/* --- IMAGE FOOTER --- */
+.image-footer {
+        background: url(../assets/Inicio/ALUMUNDO-METALICO.png) no-repeat center;
+        background-size: contain;
+        margin-top: -25%;
+}
+
+/* --- FOOTER --- */
+.imageContactenos {
+        margin-top: -33%;
+        width: 100.5%;
+}
+
+.titleContact {
+        text-align: center; 
+        color: white; 
+        margin-top: 2%;
+        font-size: 150%;
+}
+
+.imageBlue {
+        background-image: url(../assets/Inicio/BARRA-CONTACTANOS.png);
+        width: 96.6% !important;
+}
+
+.lineFooter {
+        text-align: center; 
+        margin-top: -2%; color: rgba(82, 86, 89, 1); 
+        width: 100%;
+}
+
+.social {
+        width: 7%;
+}
+
+.alu1 {
+        width: 35%;
+}
+
+.alu2 {
+        width: 40%;
+}
+
+}
+
+
